@@ -1,3 +1,6 @@
+## PROJETO PHP
+Desenvolver esse projeto foi muito enriquecedor para o meu conhecimento, não havia utilizando nenhum framework em projetos desenvolvidos. Foi como se um novo mundo estivesse aparecido em minha frente, com certeza o Laravel passará a ser a ferramente que irei utilizar em projetos futuros.
+
 <p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
 
 <p align="center">
