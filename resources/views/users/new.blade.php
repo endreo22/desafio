@@ -113,7 +113,7 @@
                                     <input type="password" minlength="8" class="form-control" id="password" name="password" placeholder="Informe a Senha" required>
                                 </div>
                             </div>
-                            <button type="submit" class="btn btn-primary">Cadastrar</button>
+                            <button type="submit" class="btn btn-primary">@if(isset($user))Editar @else Cadastrar @endif</button>
                         </form>
                     </div>
                 </div>
