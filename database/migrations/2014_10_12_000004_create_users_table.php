@@ -17,21 +17,21 @@ class CreateUsersTable extends Migration
             $table->engine = 'InnoDB';
 
             $table->increments('id');
-            $table->unsignedInteger('branch_id');
+            $table->integer('branch_id')->unsigned()->nullable();
             $table->string('name');
             $table->string('email');
-            $table->date('birth_date');
-            $table->string('genre');
-            $table->string('address');
-            $table->string('district');
-            $table->integer('number');
-            $table->string('city');
-            $table->string('state');
-            $table->string('role');
-            $table->double('salary', 10, 2);
-            $table->string('status');
+            $table->date('birth_date')->nullable();
+            $table->string('genre')->nullable();
+            $table->string('address')->nullable();
+            $table->string('district')->nullable();
+            $table->integer('number')->nullable();
+            $table->string('city')->nullable();
+            $table->string('state')->nullable();
+            $table->string('role')->nullable();
+            $table->double('salary', 10, 2)->nullable();
+            $table->string('status')->nullable();
             $table->string('cpf');
-            $table->string('password');
+            $table->string('password')->nullable();
             $table->rememberToken();
             $table->timestamps();
 
